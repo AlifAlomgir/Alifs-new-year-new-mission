@@ -1,0 +1,136 @@
+body {
+
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Banner styles */
+
+.banner {
+
+    background: url(../images/banner/banner2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+
+    padding: 200px 230px;
+    display: flex;
+    position: center;
+
+}
+
+.empty {
+
+    width: 60%;
+
+}
+
+.banner-content {
+
+    text-align: right;
+    width: 40%;
+}
+
+.banner-title {
+
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+    font-family: 'Work Sans';
+}
+
+.banner-description {
+
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.banner-btn {
+
+    width: 160px;
+    height: 64px;
+    background: #F15B22;
+    border-radius: 5px;
+    border: none;
+}
+
+/* main styles */
+
+main {
+
+    margin: 130px 230px;
+}
+
+/* failure section */
+
+.failure-content {
+
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+.failure-title {
+
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-top: 200px;
+}
+
+.failure-description {
+
+
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+
+.failure-reason-list li {
+
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin: 10px 0;
+}
+
+/* future plan section */
+
+.plan {
+
+    margin: 130px 0;
+}
+
+.plan-header {
+
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.plan-content {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.plan-title {
+
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    text-align: center;
+}
+
+plan-description {
+
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    text-align: center;
+    margin: 20 px 0;
+}

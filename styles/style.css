@@ -54,7 +54,14 @@ body {
     background: #F15B22;
     border-radius: 5px;
     border: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
 }
+
+/* footer styles */
+
+
 
 /* main styles */
 
@@ -134,3 +141,67 @@ plan-description {
     text-align: center;
     margin: 20 px 0;
 }
+
+/* contact styles */
+
+.image-with-gradient {
+
+    height: 300px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    padding: 70px;
+}
+
+.text {
+
+    width: 40%;
+}
+
+.advice {
+
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.contact-btn {
+
+    width: 160px;
+    height: 64px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 36px;
+    color: #F15B22;
+    border: none;
+
+}
+
+
+/* footer styles */
+
+.footer-content{
+
+    background-color: black;
+    padding: 130px 230px;
+
+    height: 577px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.future{
+
+    width: 30%;
+}
+
+.subscribe{
+
+    width: 20%;
+}
+
+

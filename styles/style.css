@@ -183,25 +183,88 @@ plan-description {
 
 /* footer styles */
 
-.footer-content{
+.footer-content {
 
     background-color: black;
     padding: 130px 230px;
 
-    height: 577px;
+    height: 300px;
     color: white;
     display: flex;
     justify-content: space-between;
 }
 
-.future{
+.future {
 
     width: 30%;
 }
 
-.subscribe{
+.subscribe {
 
     width: 20%;
 }
 
+.title {
 
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+}
+
+.footer-content p {
+
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+
+}
+
+.phone {
+
+    margin-bottom: 32px;
+}
+
+.footer-content a {
+
+    margin-left: 20px;
+}
+
+.subscribe-title {
+
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+
+}
+
+.subscribe input {
+
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+    margin-top: 32px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Work Sans';
+font-style: normal;
+
+    color: #F3F3F3;
+    background: #151414;
+    border-radius: 8px;
+    border:1px solid  #F3F3F3;
+}
+
+.subscribe-btn {
+
+    width: 170.11px;
+    height: 64px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    padding: 20px 37px;
+}
